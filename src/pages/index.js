@@ -1,11 +1,12 @@
-import Navbar from '@/components/Navbar'; // adjust path if needed
+import Navbar from '@/components/Navbar';
+import Intro from '@/components/Intro';
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="pt-20"> {/* Add padding to offset sticky navbar */}
-        {/* Your sections: About, Experience, etc. */}
+      <main className="pt-0">
+        <Intro /> 
       </main>
     </>
   );
