@@ -42,6 +42,8 @@ export default function About() {
                 <li>Tailwind CSS</li>
                 <li>Next.js</li>
                 <li>Power BI</li>
+                <li>Figma</li>
+                <li>Jira/Monday.com/ClickUp</li>
               </ul>
 
               <p>
@@ -62,7 +64,7 @@ export default function About() {
         </div>
 
         {/* Closing brace - always on new line */}
-        <div className="text-2xl mt-2 pl-2">
+        <div className="text-2xl mt-2 pl-1">
           <span>&#125;</span>
         </div>
       </div>

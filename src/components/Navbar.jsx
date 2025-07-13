@@ -10,8 +10,9 @@ export default function Navbar() {
           <h1 className="text-3xl fancy-font">Naailah</h1>
           <ul className="flex gap-6 text-sm">
             <li><a href="#about" className="hover:text-gray-600">About</a></li>
-            <li><a href="#experience" className="hover:text-gray-600">Experience</a></li>
-            <li><a href="#projects" className="hover:text-gray-600">Projects</a></li>
+            <li><a href="#experience" className="hover:text-gray-600">Projects</a></li>
+            <li><a href="#experience" className="hover:text-gray-600">Highlights</a></li>
+            <li><a href="#projects" className="hover:text-gray-600">Gallery</a></li>
           </ul>
         </div>
 
