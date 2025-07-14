@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:wght@400;500;700&family=Nunito:wght@300;400;600;700&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -28,4 +28,16 @@ body {
   font-weight: 700; /* or any value from 400 to 700 */
   font-style: normal;
 }
+
+.playfair-font {
+  font-family: "Playfair Display", serif;
+  font-weight: 700; /* or 500, or 400 */
+  font-style: normal;
+}
+
+.soft-body {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+}
+
 
