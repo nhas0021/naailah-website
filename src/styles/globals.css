@@ -40,4 +40,23 @@ body {
   font-weight: 600;
 }
 
+@keyframes blobFloat {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-20px) scale(1.02);
+  }
+}
+
+@keyframes blobFloatReverse {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(20px) scale(1.02);
+  }
+}
+
+
 
