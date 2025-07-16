@@ -12,7 +12,7 @@ export default function About() {
         
         {/* Function header */}
         <div 
-          className="flex items-center cursor-pointer text-2xl playfair-font text-[#E07A5F]"
+          className="flex items-center cursor-pointer text-2xl soft-body text-[#E07A5F]"
           onClick={toggleCollapse}
         >
           {isOpen ? <FaChevronDown className="mr-2" /> : <FaChevronRight className="mr-2" />}
@@ -46,7 +46,7 @@ export default function About() {
               </ul>
 
               <p>
-                Outside of coursework, I enjoy following trends in AI and cybersecurity, building personal projects (like this website!), and occasionally getting lost in a good psychological thriller or horror movie. When I’m not coding, you’ll probably find me listening to music – it’s one of my favourite ways to unwind and stay inspired.
+                Outside of coursework, I enjoy following trends in AI and cybersecurity, building personal projects (like this website!), and occasionally getting lost in a good psychological thriller or horror movie. When I’m not coding, you’ll probably find me listening to music, it’s one of my favourite ways to unwind and stay inspired.
               </p>
             </div>
 
@@ -62,7 +62,7 @@ export default function About() {
         </div>
 
         {/* Closing brace */}
-        <div className="text-2xl mt-2 pl-1 text-[#E07A5F] playfair-font">
+        <div className="text-2xl mt-2 pl-1 text-[#E07A5F] soft-body">
           <span>&#125;</span>
         </div>
       </div>
