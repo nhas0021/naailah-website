@@ -13,17 +13,17 @@ export default function Projects() {
 
   const projects = [
     {
-      title: "VODSearch",
-      image: "/images/vodsearch.png",
+      title: "Traffic Control System Project",
+      image: "/Circuit.jpeg",
       description:
-        "Software that watches live or archived videos and analyzes content in real time for highlights and trends.",
+        "This project replicates how real traffic lights operate, coordinating vehicle and pedestrian movement through controlled light sequences. It supports timed operation, push-button activation for pedestrian crossings, and optional sensor-based triggers to adapt to changing traffic conditions. The system was designed to mimic real-world intersection logic, showcasing event-driven control, state management, and how embedded systems can be used to regulate traffic safely and efficiently.",
       link: "#",
     },
     {
-      title: "Fast Endpoints",
-      image: "/images/fastendpoints.png",
+      title: "Retractable Emergency Bridge Prototype",
+      image: "/bridge.png",
       description:
-        "An open source project that is a developer-friendly alternative to traditional API endpoints.",
+        "A 1:24 scale expandable bridge mechanism designed for rapid deployment in flood-affected regions. The system retracts neatly into a 100mm cube for transport and expands using a single mechanical drive to span a fixed gap and support a central load. I designed the structure in SolidWorks, integrated custom 3D-printed PLA components, and engineered the mechanism to meet strict constraints around volume, stability, deployment time, and load-bearing performance.",
       link: "#",
     },
   ];
